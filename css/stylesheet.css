@@ -1,0 +1,665 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    
+    
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1.4em;
+    font-family: arial, helvetica, sans-serif;
+    perspective :600px;
+}
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* micro clear fix*/
+
+.grouping:before,
+.grouping:after {
+    content: " ";
+    display: table;
+}
+.grouping:after{
+    clear: both;
+}
+img, iframe, video, object {
+    max-width: 100%;
+}
+
+strong, b {
+    font-weight: bold;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.wraper {
+    overflow: hidden;
+    padding: 30px 0 ;
+
+}
+/* 
+===========================================
+===========================================
+
+              the  Header Start
+
+===========================================
+===========================================
+*/
+
+/* =======================================
+
+              cover image
+==========================================*/
+
+.header .slider {
+    background-image: url('../images/slider.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.header .slider .header-info {
+    text-align: center;
+    color: #FFF;
+    padding: 300px;
+}
+.header .slider .header-info h1 {
+    padding: 5px 0;
+    line-height: 1.1em;
+    color: #FFF;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 55px;
+    border-top: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
+}
+.header .slider .header-info button {
+    width: 187px;
+    height: 45px;
+    font-size: 16px;
+    color: #FFF;
+    border: 2px solid #FFF;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+
+
+/* =======================================
+
+              start of nav-bar
+==========================================*/              
+.nav-bar {
+
+    background-color: #252F31;
+    color: #FFF;
+    position: relative;
+}
+.nav-bar h1 {
+    float: left;
+    padding-top: 7px;
+    width: 30%;
+}
+.nav-bar h1 span {
+    color: #2ECA6D;
+}
+.nav-bar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 30px;
+}
+ .nav-bar ul li {
+    float: left;
+    padding: 10px ;
+
+
+}
+.nav-bar ul li a{
+    color: #FFF;
+    text-decoration: none;
+}
+.nav-bar  .home{
+    color: #30B576;
+    
+}
+.nav-bar ul li a:hover{
+    color: #30B576;
+
+    
+}
+
+/* =======================================
+
+              the end of nav-bar
+==========================================*/
+
+/* 
+===========================================
+===========================================
+
+              the  Header end
+
+===========================================
+===========================================
+*/
+
+/* 
+===========================================
+===========================================
+
+              the  goals section Start
+
+===========================================
+===========================================
+*/
+
+.goals {
+    float: left;
+    width: 33.3333%;
+    height: 150px;
+    opacity: .5;
+}
+.goals h1 {
+    font-size: 29px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.goals p {
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.7;
+}
+/*
+===========================================
+===========================================
+
+              the  goals section end
+
+===========================================
+===========================================
+*/
+
+
+/*
+===========================================
+===========================================
+
+              the  about-me section Start
+
+              box-sizing css3 
+
+===========================================
+===========================================
+*/
+
+
+.about-me {
+
+    background-color: #F2F2F2;
+    height: 480px;
+    overflow: hidden;   
+}
+.img-of-me {
+    float: left;
+    width: 35%;
+
+ }
+.img-of-me img {
+    width: 100%;
+    height:450px;
+    
+}
+
+ .info-about-me {
+    float: left;
+    width: 75%;
+    margin-left: 60px;;
+    opacity: .5;
+ }
+ .info-about-me h1 {
+
+    font-size: 29px;
+    font-weight: bold;
+    padding-bottom: 20px;
+ }
+ .info-about-me p {
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.7;
+} 
+.kill {
+    opacity: .5;
+    padding: 0 0;
+} 
+.skills {
+    width: 50%;
+    float: left;
+} 
+.skills i {
+    position: relative;
+    float: left;
+    color: green;
+    margin-left: 40px;
+    left: 20px;
+    top: 4px;
+}
+.skills h1 {
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+.skills p {
+    margin-left: 100px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    
+}
+
+
+ /*
+}
+}
+===========================================
+===========================================
+
+              the  dev-skills section Start
+
+===========================================
+===========================================
+*/
+.my-skills, .skills-prog {
+    float: left;
+    width: 50%;
+    opacity: .8;
+    position: relative;
+
+}
+.skills-prog section {
+    width: 100%;
+    position: relative;
+    top: 50px;
+    left: 120px;
+    padding-top: 10px;
+}
+.skills-prog section  progress {
+    width: 80%;
+    background-color: blue;
+    height: 25px;
+}
+.skills-prog section h2 {
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+.my-skills h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+ }
+ .my-skills p {
+    padding: 20px;  
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.4;
+ }
+ .my-skills > button {
+    color: #2DCC70;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid #2DCC70;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+/*
+===========================================
+===========================================
+
+        the  dev-skills section end
+
+===========================================
+===========================================
+*/
+
+
+/*
+===========================================
+===========================================
+
+         the resume section Start
+
+===========================================
+===========================================
+*/
+
+.resume {
+  text-align: center;
+  background-color: #F2F2F2;
+  height: 318px;
+  opacity: .7;
+  
+}
+.my-resume {
+ padding-top: 30px;
+}
+.my-resume h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+}
+ .my-resume p {
+  padding: 20px;  
+   font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+ .my-resume > button {
+    color: #2DCC70;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid #2DCC70;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+}
+/*
+===========================================
+===========================================
+
+        the  resume section end
+
+===========================================
+===========================================
+*/
+/*
+===========================================
+===========================================
+
+          the  education section Start
+
+===========================================
+===========================================
+*/
+.my-edu, .edu-prog {
+    float: left;
+    width: 50%;
+    opacity: .8;
+
+}
+.my-edu h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+}
+.edu-prog p:first-of-type {
+    font-weight: bold;
+}
+.edu-prog span {
+    font-weight: 300;
+}
+.edu-prog p:last-of-type {
+    width: 68px;
+    height: 23px;
+    background-color: #2DCC70 ;
+    text-align: center
+}
+.my-edu p {
+    padding: 20px;  
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+.edu-prog hr {
+    font-weight: bold;
+    opacity: 1;
+}
+ 
+/*
+===========================================
+===========================================
+
+        the education section end
+
+===========================================
+===========================================
+*/
+
+/*
+===========================================
+===========================================
+
+          the  experience section Start
+
+===========================================
+===========================================
+*/
+.my-exp, .exp-prog {
+    float: left;
+    width: 50%;
+    opacity: .5;
+
+}
+.my-exp h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+}
+ .my-exp p {
+    padding: 20px;  
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+.my-resume q {
+    display: block;
+    margin-top: 50px;
+    color: #888;
+    font: italic bold 18px/1.8 Arial, Tahoma;
+}
+.my-resume ul li {
+    display: inline-block;
+    width: 26px;
+    height: 23px;
+    margin-top: 50px;
+/*  background-color: #2DCC70;*/
+    border: #2ECA6D 3px solid;
+    cursor: pointer;
+
+}
+.my-resume ul li:hover {
+    background-color: #2DCC70;
+}
+/*
+===========================================
+===========================================
+
+        the experience section end
+
+===========================================
+===========================================
+*/
+
+
+/*
+===========================================
+===========================================
+
+        the portofolio section start
+
+===========================================
+===========================================
+*/
+
+.my-port {
+    padding-top: 100px;
+    text-align: center;
+    background-color: #F2F2F2;
+    height: 318px;
+    opacity: .5;
+}
+.my-port {
+    padding-top: 30px;
+}
+.my-port h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+ }
+ .my-port p {
+    padding: 20px;  
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.4;
+ }
+.portfolio .port-img > div{
+    float: left;
+    width: 33.333%;
+    margin-bottom: 10px;
+    perspective :600px;
+}
+.portfolio .port-img img {
+    width: 92%;
+    margin: 10px;
+    transition: all .5s ease-in-out;
+
+  
+}
+.portfolio .port-img img:hover{
+       
+    transform:translateZ(100px);
+}
+
+
+
+/*
+===========================================
+===========================================
+
+        the portofolio section end
+
+===========================================
+===========================================
+*/
+
+/*
+===========================================
+===========================================
+
+          the  contact section Start
+
+===========================================
+===========================================
+*/
+.contact-me {
+    background-color: #252F31;
+
+}
+.contact, .contact-form {
+    float: left;
+    width: 50%;
+  
+
+}
+.contact-form input,textarea {
+    display: block;
+    margin-bottom: 30px;
+}
+.contact-form input {
+    background-color:  #4B5557;
+    border:0;
+    padding: 6px;
+    width: 80%;
+}
+.contact-form textarea {
+    background-color:  #4B5557;
+    border:0;
+    height: 300px;
+    width: 80%;
+}
+.contact h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+ }
+.contact p {
+    padding: 20px;  
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.white {
+    color: #FFFFFF;
+}
+
+.grey {
+    color: #6A6B66;
+}
+/*
+===========================================
+===========================================
+
+        the  contact section end
+
+===========================================
+===========================================
+*/
+.footer {
+    background-color: #191E22;
+    text-align: center;
+    padding: 20px;
+}
+
